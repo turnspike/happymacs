@@ -1,0 +1,52 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Sep 22 21:48:23 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22017 18191 827534 0) (desktop . "206") "work@serenity.fritz.box" nil nil ((((font-backend mac-ct) (font . "-*-Menlo-normal-normal-normal-*-14-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#cccccc") (background-color . "#2d2d2d") (mouse-color . "black") (border-color . "#515151") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha) (tool-bar-lines . 0) (title) (fullscreen) (menu-bar-lines . 1) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#f2777a") (environment) (frameset--id . "D21E-4918-AB98-4C51") (frameset--mini t . t) (height . 44) (width . 137) (modeline . t) (minibuffer . t) (unsplittable) (left . 97) (top . 75) (icon-name) (visibility . t) (display . "Mac") (explicit-name) (tool-bar-position . top)) ((min-height . 5) (min-width . 10) (min-height-ignore . 5) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 80) (min-pixel-width . 80) (min-pixel-height-ignore . 80) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 1112) (pixel-height . 688) (total-width . 139) (total-height . 43) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 6) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 4869) (start . 4869))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("ido-setup-hook" "lisp" "ido" "s-o" "helm" "s-b\"" "-b\"" "ido" "smex" "helm" "environ" "minima" "env" "minim" "minmap" "aggress"))
+(setq register-alist nil)
+(setq file-name-history '("~/.happymacs/init.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/work/.happymacs/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(aggressive-indent-mode smartparens-mode linum-mode rainbow-mode projectile-mode git-gutter-mode company-mode rainbow-delimiters-mode)
+  4869
+  '(16933 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "work"
+  'dired-mode
+  '(linum-mode rainbow-mode projectile-mode company-mode)
+  217
+  '(nil nil)
+  t
+  '("/Users/work/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  ".happymacs.bak"
+  'dired-mode
+  '(linum-mode rainbow-mode projectile-mode company-mode)
+  180
+  '(nil nil)
+  t
+  '("/Users/work/.happymacs.bak/")
+  nil)
+
